@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Lobster&display=swap');
-    
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Lobster&family=Yanone+Kaffeesatz&display=swap'); 
 @media screen and (max-width: 768px) {
 
 
@@ -50,5 +50,16 @@
 
     .logo, .name{
         display: inline-block;
+    }
+
+    .text1 , .text2{
+        padding: 2vw;
+        font-size: 5vw;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        display: inline-block;
+        margin-left: 5vw;
+        margin-top: 10vw;
+        background-color: #eb206f;
+        border-radius: 2vw;
     }
 }
