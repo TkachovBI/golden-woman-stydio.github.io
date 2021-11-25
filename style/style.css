@@ -63,3 +63,91 @@
         border-radius: 2vw;
     }
 }
+
+@media screen and (min-width: 768px) {
+
+
+    body{
+        margin: 0;
+        padding: 1vw;
+        background-color: #8080804b;
+    }
+
+    .phone-top{
+        text-decoration: none;
+        color: black;
+        text-align: center;  
+        padding: 1vw 1.5vw 1vw 1.5vw;    
+        border-radius: 1.5vw;
+    }
+
+    .phone{
+        margin: auto;
+        margin-top: 0.75vw;
+        font-size: 4vw;    
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    
+    img{
+        display: inline-block;
+        width: 25vw;
+        border-radius: 2vw;
+    }
+
+    .name{
+        font-size: 4vw;
+        margin-left: 3vw;
+        text-align: center;
+        color: #eb206f;
+        font-family: 'Lobster', cursive;
+    }
+
+    .log_name, .menu{
+        display: inline-block;
+        align-content: center;
+    }
+
+.menu{
+    float: right;
+}
+
+.name, .logo img{
+    align-items: center;
+}
+
+    .logo img{
+        width: 5vw;
+    }
+
+    .logo, .name{
+        display: inline-block;
+    }
+
+    .text1 , .text2{
+        padding: 2vw;
+        font-size: 2.5vw;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        margin-left: 1vw;
+        background-color: #eb206f;
+        border-radius: 2vw;
+        display: inline-block;
+        width: 30vw;
+    }
+
+    .photo{
+        margin-top: 2vw;
+        display: inline-block;
+    }
+
+    ul{
+        margin-bottom: 0;
+    }
+
+    .temp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
