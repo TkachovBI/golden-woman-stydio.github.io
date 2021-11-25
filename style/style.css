@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Lobster&display=swap');
+    
+@media screen and (max-width: 768px) {
+
+
+    body{
+        margin: 0;
+        padding: 3vw;
+        background-color: #8080804b;
+    }
+
+    .phone-top{
+        text-decoration: none;
+        color: black;
+        text-align: center;  
+        padding: 1vw 1.5vw 1vw 1.5vw;    
+        border-radius: 1.5vw;
+    }
+
+    .phone{
+        margin: auto;
+        font-size: 6vw;    
+        text-align: center;
+        margin-top: 6vw;
+        margin-bottom: 5vw;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    
+    img{
+        display: block;
+        width: 100%;
+        border-radius: 2vw;
+    }
+
+    .name{
+        font-size: 8vw;
+        margin-left: 3vw;
+        text-align: center;
+        color: #eb206f;
+        font-family: 'Lobster', cursive;
+    }
+
+    .logo img{
+        width: 10vw;
+    }
+
+    .logo, .name{
+        display: inline-block;
+    }
+}
